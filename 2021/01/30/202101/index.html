@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Yaping Wang">
+
+
+
+
+
+<title>2021 年 1 月 | Yaping&#39;s Blog</title>
+
+
+
+    <link rel="icon" href="/favicon.ico">
+
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/script.js"></script>
+    
+    <script src="/js/tocbot.min.js"></script>
+    
+
+
+
+    
+    
+        
+    
+
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo"><a href="/">Yaping&#39;s Blog</a></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+                <input id="switch_default" type="checkbox" class="switch_default">
+                <label for="switch_default" class="toggleBtn"></label>
+            </div>
+        </div>
+    </nav>
+
+    
+    <nav class="navbar-mobile" id="nav-mobile">
+        <div class="container">
+            <div class="navbar-header">
+                <div>
+                    <a href="/">Yaping&#39;s Blog</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                </div>
+                <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
+            </div>
+            <div class="menu" id="mobile-menu">
+                
+                    <a class="menu-item" href="/archives">Posts</a>
+                
+                    <a class="menu-item" href="/category">Categories</a>
+                
+                    <a class="menu-item" href="/tag">Tags</a>
+                
+                    <a class="menu-item" href="/about">About</a>
+                
+            </div>
+        </div>
+    </nav>
+
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementsByClassName("menu-toggle")[0];
+        var mobileMenu = document.getElementById("mobile-menu");
+        if(toggleMenu.classList.contains("active")){
+           toggleMenu.classList.remove("active")
+            mobileMenu.classList.remove("active")
+        }else{
+            toggleMenu.classList.add("active")
+            mobileMenu.classList.add("active")
+        }
+    }
+</script>
+        <div class="main">
+            <div class="container">
+    
+    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
+</div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">2021 年 1 月</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">Yaping Wang</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">January 30, 2021&nbsp;&nbsp;22:46:55</a>
+                        </span>
+                    
+                    
+                        <span class="post-category">
+                    Category:
+                            
+                                <a href="/categories/Personal/">Personal</a>
+                            
+                        </span>
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>年初立的新年愿望之一是“多写作”，原因同这篇<a target="_blank" rel="noopener" href="https://www.douban.com/note/752691942">文章</a>所写。「借助写作来帮助思考」的目标于现在的我而言还过于宏大，毕竟大学毕业后我连运用朴素的中文有条理地表达的能力都快丧失了(更别提用英文)。过去两三年也曾下过无数次重拾写作的决心，最后都因为觉得自己写得太烂而中途放弃。这次我告诉自己写得再烂也没关系，只要能坚持每个月一篇就算达成目标。</p>
+<p>这次还有一个要求是，如非必要，尽量避免中英文夹杂——原因之一是当然如前文所提，我要提高自己的中文写作水平；另外一个原因是，在写作时候我会把读者预设成我的父母(当然我也知道有些人会借助谷歌翻译来阅读这些文字哈哈)，我希望他们能通过这些文章更了解女儿在异国的日常生活。记得前段时间和 PY 聊天，她提到从美国回到家乡工作之后的孤独——那种身边没有人可以谈论、甚至听说过自己关注的议题的孤独。我当时对她的劝导是，每个人都有很多个维度，家人和不同的好友都分别只能了解某些维度的你，譬如在国内的朋友中，我其实也只能和她聊学术。在老家可能没有人和我聊学术，但是同父母、家乡的那些初中起的好朋友们聊家长里短也不失为一种乐趣。后来我想，那为什么不试着展示更多的维度给父母呢——毕竟如果说有谁能在任何时刻都无条件耐心听我碎碎念的话，大概只有爸爸妈妈了。写给他们看就是一种尝试。</p>
+<p>切入正题。其实不知道写些啥，那就从立的新年愿望的几个角度来记点流水账。</p>
+<h1 id="学业"><a href="#学业" class="headerlink" title="学业"></a>学业</h1><h2 id="上课"><a href="#上课" class="headerlink" title="上课"></a>上课</h2><p>去年十二月底到这个月初的寒假，我终究是荒废了…在家看剧看闲书，除了读了几篇论文找毕业论文的开题灵感就没干什么正经事。开学前出了上学期的成绩，出乎我意料，心情大好迎接新学期的折磨。</p>
+<p>新学期选了三门课：计量经济学2，宏观技术2，概率图模型。不出意料比上学期忙得多得多，但我总体还是乐在其中。计量2很糟糕，今年的老师是个年轻的西班牙人，看他发的论文可以说是一个成功的研究者，但他实在是一个失败的老师。宏观技术2和概率图模型的课都令人享受其中。尤其宏观技术2，教的其实就是计量经济学在宏观经济学中的应用。上上周刚好听了一个有趣的讲座，是上学期的计量老师和他在央行的朋友一起做的一个衡量政策最优性的充分统计量，令人惊叹原来做纯理论计量的和宏观的人在一起也可以作出很有意思的研究。那个老师的讲座，结合正在上的宏观技术2，引发了我对现在学院派的高级宏观经济学训练的一些思考。</p>
+<p>(！预警，以下都是胡扯) 虽然我身在经济学院但是并没有选高级宏观的课(汗颜)，根据在学院里的所见所闻和出于兴趣翻阅的课件和书籍，我认为学院派的高宏观训练仿佛有点重模型而轻数据的倾向。众所周知，宏观研究长期存在着数据 (reduced form) vs 模型 (structural form) 的对立。一方面，数据 (reduced form)：更多的数据做实证研究可以发现更多的现象，但整个过程都是一个黑箱——难以解决如何对现象加以利用，有什么政策意义的问题，而且还面临着卢卡斯批判。典型的比如菲利普斯曲线: 计量经济学家发现失业率与通货膨胀率的负相关关系，但若试图通过高通货膨胀率来压低失业率，居民会调整微观行为来回应宏观政策，最后导致滞胀。另一方面，模型 (structural form) ：预设在微观基础上的一般均衡模型可以更好地理解现象，但模型并不一定正确。大家往往试图在两者之间一个平衡，但学院派现在似乎过度注重模型了。其实，主流的一般均衡模型很难捕捉到经济系统真正的动态所在，即政策制定者和经济主体双方动态博弈带来的结构变化，故而无法很好地回应卢卡斯批判。因为从微观到宏观的过程不仅仅是简单的数字上加总，所以往往校准的一些参数都无法跟微观数据匹配。结构模型能做的如此有限，也难怪在业界计量模型还是占主流，在宏观技术2课上我们也发现央行使用的还是在学术界看来十分老旧的计量模型。和 JY 聊的时候她也觉得去年学了很多高级宏观模型，但总觉得和现实很遥远，然而这门课用计量经济理论检验宏观数据，很有意思。一个插曲，大概是网课的原因，大家不太愿意开麦克风说话，宏观技术2的老师经常鼓励我们发言，每次听到她说 guys come on you are smart PhD students 的时候我都汗颜想回复: 老师我只是个大笨蛋啊…</p>
+<p>其实我还特别想选宏观技术1，学期初试听了两节课，看样子是教如何用数值分析方法解上文提到的结构模型，囿于学分限制+老师不允许旁听，只能忍痛割爱。虽然大家都说如果不是想做理论宏观经济学的话选这门课意义不大，但明年有机会的话我还是想旁听一番。</p>
+<p>说到“想做什么”，这个月也发现了很有意思的现象。和一年级同学一起上计量经济学2的第一节课，老师请大家逐个自我介绍，基本上所有的同学都说得出自己想做的方向；而在和二年级同学一起上的研讨会上，老师请大家自我介绍时，竟然有一半的同学说还没决定好…不知道仅仅是这几十个同学之间的差异，还是和二年级学得多了之后愈发迷茫有关。</p>
+<p>关于研究方向，月中的一个晚上，我情绪失控发了一条朋友圈，说应用经济学在研究很多非经济学领域的问题，这种研究并不激动人心。次日清晨我觉得不妥，正准备删掉这条动态的时候发现收到了「照这个逻辑 Gary Becker 应该把诺奖还回去；Econ 101 没学好」这样的评论，当时更加后悔了——朋友圈就不应该发这种 60 个字内说不清楚的东西。我承认自己经济学原理课没学好，但是我有很多条理由来反驳那条评论所代表的意见，当然评论的作者也有很多条理由来驳回，可是在朋友圈这种地方——对方用来嘲讽来回复我为发泄情绪而存在的极端言论——从来就没有理性探讨的根基。</p>
+<p>至于一开始我为什么要把应用经济学贬得一文不值 (之前有同学以为是因为我鄙夷那个领域所用的「技术太简单」和议题不重要，谬以千里)，接下来又是我的胡言乱语——</p>
+<p>我觉得对于用实证方法去研究其他社科领域的作品，也有上文提到的问题，就是即便你的 identification 再漂亮，也面临着黑箱问题。当然也经常看到论文后部分试图解释可能的发生机制的，但我个人从来都很难被那部分说服，觉得几乎毫无洞见。有人反驳说经济学家来研究这些问题是因为传统社科学者很少在意因果关系，也不会用严谨的计量经济学工具(其实就是在意因果的统计学)来分析社科问题，但我看到越来越多政治学/社会学的学者掌握统计学了，这只能说是传统社科训练的缺陷，却无法为经济学帝国主义辩解。</p>
+<p>至于用结构建模方式研究社科问题，尤其是比较微观的问题并不合适。建立+校准一个如此复杂的多期动态最大化模型，就洞见而言也并没有提供什么其他社会学科没有讲过的新机制，如果说贡献是量化了一些 trade-off，那这个模型的假设和简化可能又对结果的稳健性构成很大问题，估计/校准模型的方式也不一定准。所以意义何在呢？本质上我还是觉得经济学建模式的研究方法决定了它本质上只能是一个比较浅薄（并不一定是贬义）的学科。为了清晰的数学表达，经济学模型必须通过假设来忽略掉很多复杂性，而这种复杂性才是理解人类社会最重要的部分。所以经济学在一些议题上提供的答案真不如其他社科深刻或者有洞见。 不理解经济学帝国主义的傲慢是哪来的。</p>
+<p>讲了那么多，还是要澄清一下：我觉得应用经济学研究的社科议题非常重要（譬如我一向喜欢阅读社会学人类学历史系的东西），但是我个人绝不会把它作为自己一辈子的研究方向。看来我还是对数理的东西不容易厌倦，虽然最近也有了 is econometrics discovered or invented 这样的困惑（果然懂得越少的人想得越多。</p>
+<h2 id="论文"><a href="#论文" class="headerlink" title="论文"></a>论文</h2><p>这个月的目标是选好题，显然是没达成…整个月都在适应新学期的节奏，根本无暇考虑论文选题。</p>
+<p>一个有意思的插曲是，由于疫情的关系，师兄师姐的博士开题答辩都在线上举行，所以只要有心，我们这些小朋友也可以向系里要链接在线旁听。一月中的时候我连听了三场做计量/统计方向师兄们的答辩，恰好这三位师兄被同一个导师(CB)指导，在最后一场答辩的时候我成功地引起了 CB 的注意…他私信问我是否是博士生，得知我是 MRes 学生后他开玩笑说 it’s even worse 哈哈。最后谈到我苦于 MRes 毕业论文选题的时候，他建议向老师要题目而不是自己苦想。其实我一直有找 CB 当指导老师的想法，他既然这么主动，感觉二月的时候我就可以读点文献找一些感兴趣的大方向，然后发邮件求指导啦。</p>
+<h2 id="助研-RA"><a href="#助研-RA" class="headerlink" title="助研 (RA)"></a>助研 (RA)</h2><p>提到这个就想叹气。去年年底申请了一个教授的研究助理岗位，今年其实很后悔，因为想要「有一点自己的生活」的话，在今年上半年还有课和论文的压力的情况下是根本没有精力再做研究助理的的。更糟糕的是我最后才发现这份 RA 的工资只有正常 RA 工资的一半不到，奈何已经答应了那个教授，实在不好拒绝。</p>
+<p>屋漏偏逢连夜雨。因为一直拿着学院发的奖学金，自然要给学院干活，这学期学院突然强行给我安排了一份的给一个做 IO 的教授做 RA 的工作——和我的研究兴趣和技能完全不符合。我一直以为这一学年只需要做一些诸如批改作业、监考的杂事，没想到任务一来就是 50 小时的 RA 工作，和其他同学 10 小时的改作业工作相对应。月底我一直在学校和教授们之间斡旋，直到现在也不知道这个事情会如何收场…</p>
+<p>不过所谓危机就是面临着无论如何抉择都糟糕的处境，我能做的就是做出一个最小化「糟糕」的选择（我在说什么…（真的有进步，以前遇到这种情况，我只想和生活同归于尽呜呜呜</p>
+<p>其实我有更多关于学业（或者往广了说专业技能）的计划，比如提高编程技能、补一些数学、每周读多少篇论文，但事实证明计划很不现实——开学之后，我连读完老师课内安排的阅读、及时消化课业都做不到。</p>
+<h1 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h1><p>今天是我来到巴塞罗那的 520 天，离家整整 520 天了。在办公室休息的时候，时常无意识地在白板上写下「休对故人思故国，且将新火试新茶 」(Don’t miss your hometown in front of your old friends, just light a new fire to make a cup of freshly picked tea),「故人不可见，汉水日东流」(My old friend is gone forever, just like Han Shui rushing day and night) 这样的句子，反应过来后笑自己小家子气。但是说不想家谁信呢，离家的时候怎么也想不到在21世纪、和平年代，有家难回这样的事情居然会发生在平民身上，也是「故国」怪现状一种了。</p>
+<p>回到日常生活。最近最开心的事可能是搬了新家了，居住环境干净装修好，也只有一个的西班牙小姐姐室友。虽然自己的房间还是不见阳光的天井房，可是我只有晚上睡觉的时候在房间里，平时要么在学校要么在客厅，所以其实没有多大影响啦。最重要的是西班牙小姐姐每隔两天去公司上班，而且外国人做饭简单，四舍五入我相当于拥有了自己的厨房！如果说这一年多来有什么生活上的心得/感悟，可能就是身心二元论是扯淡——身体健康是快乐和有创造力的前提，而想要身体健康就是三点：吃得好，睡得好，动得多。自己一直以来对待工作和生活都有种 binge and purge 的倾向——每周前三天学习到废寝忘食，后四天刷剧到废寝忘食，饮食和作息都不太规律。这次搬家就是改变生活方式的最好契机，多花时间研究菜谱和做菜哈。</p>
+<p>接下来分小点来写这个月都做了些啥，因为学业繁重没什么娱乐活动，所以写不出一段一段，而且网上冲浪看碎片信息过多，月底基本记不清看过听过读过啥，只能列 bullet points.</p>
+<ul>
+<li>身心健康：作息尚可，托早课的福，每天八点多基本能在闹钟声中痛苦起床；跑步公里数未达标；和手机关系未处理好，每天屏幕时间还是很长。</li>
+<li>阅读：有一次在微博热搜看到类似「浙江农村的房子」的热搜，思乡之余也萌生起对回忆里的田园风光、想象中的小农经济的朴素的情感上的向往，当然理性告诉我城市更加高效、反城市的乡愁主义是愚蠢的 blahblah，于是找了几本书来读：<a target="_blank" rel="noopener" href="https://book.douban.com/subject/26824237//">《大国大城》</a>、<a target="_blank" rel="noopener" href="https://book.douban.com/subject/34933308/">《城市与压力</a>》，有空整理读书笔记和书评。 （重新开始写每月总结的时候才意识到成年后读书好少啊…而且发现自己好像并不适合这种主题类阅读的模式，连着读同一主题的书会让我感觉疲乏，我还是喜欢同时间读不同主题的书。）另外就是一直在读的叶嘉莹的书，她的书难度刚刚好(不流俗，也不像顾随的书那么难)。这个月读了<a target="_blank" rel="noopener" href="https://book.douban.com/subject/2005704/">《北宋名家词选讲》</a>，睡前读的时候经常情绪激动，感慨世间怎么会有这么美的事物。不得不承认，我人生的底色是中文唉。</li>
+<li>音乐：整个月没去学校，在之前的那个房子里也不好意思放声唱，所以没练唱歌；学琴计划亦遥遥无期。</li>
+<li>出行：没爬山没滑雪没逛各种馆，只在三个阳光灿烂的下去独自一人去了三次城堡公园散步。</li>
+<li>电影/纪录片：其实有点为何那么多人沉溺于奶头乐了，如今有闲暇的时候我的确不太看正经的纪录片，常常打开无脑综艺和国产电视剧。这个月更是只刷完了三部《神探狄仁杰》、《少年包青天1》，甚至写作业时开着当背景音听也觉得生活没那么沉重了。</li>
+<li>书法：总在白板上写字不过瘾，开学后去了几家中国人开的杂货店，终于买到买笔墨水，圣教序通临1/3不到(惭愧)。从国内带了一本王羲之的帖子，于是碑帖交换着临。从前总是舍不得各个书家，乱临一气，今年决定只临王，米和颜。我学书追求不露光华，温润晶莹，自重自励。PS：读<a target="_blank" rel="noopener" href="https://book.douban.com/subject/11593523/">《书法没有秘密》</a>，大失所望，真读不下这种故弄玄虚絮絮叨叨语病百出逻辑紊乱的书。</li>
+</ul>
+<p>疫情期间的生活总体还是无聊，当然更有可能是我本人无聊。加之上一段关系结束了一段时间，遇到不顺心事的时候没有人可以聊天，也常哀叹「人生识字忧患始，姓名粗记可以休」(The sorrow and suffering of a person’s life begins with literacy. One only needs to be able to remember his name).（诶 情绪不对</p>
+<p>就此打住吧，毕竟若反思多了，剩下的人生也无非是复制粘贴。</p>
+
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>Yaping Wang</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://yapingw.github.io/2021/01/30/202101/">https://yapingw.github.io/2021/01/30/202101/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2021 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/thought-of-life/"># thought of life</a>
+                    
+                        <a href="/tags/MRes/"># MRes</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+        </section>
+
+
+    </article>
+</div>
+
+        </div>
+        <footer id="footer" class="footer">
+    <div class="copyright">
+        <span>© Yaping Wang | Powered by <a href="https://hexo.io" target="_blank">Hexo</a> & <a href="https://github.com/Siricee/hexo-theme-Chic" target="_blank">Chic</a></span>
+    </div>
+</footer>
+
+    </div>
+</body>
+</html>
