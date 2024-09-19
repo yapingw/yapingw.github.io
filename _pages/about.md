@@ -9,7 +9,7 @@ profile:
   image: avatar.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Universitat Pompeu Fabra (UPF)</p>
+    <p>Universitat Pompeu Fabra</p>
     <p>Barcelona, Spain</p>
 
 news: false # includes a list of news items
@@ -23,4 +23,4 @@ I am a PhD candidate in econometrics at Universitat Pompeu Fabra (UPF) and Barce
 
 My research interests include high-dimensional econometrics, factor models, and empirical finance.
 
-[CV](https://yapingw.github.io/assets/pdf/yaping-wang-CV.pdf)
+[CV](https://yapingw.github.io/assets/pdf/CV.pdf)

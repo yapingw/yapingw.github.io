@@ -1,7 +1,8 @@
-"Brownlees":
-  - firstname: ["Christian", "C.", ]
+
+"brownlees": # lowercase!!
+  - firstname: ["Christian", "C."]
     url: https://ctbrownlees.github.io/
-  
-"Guðmundsson":
-  - firstname: ["Guðmundur Stefán", "G. S.", ]
+
+"gumundsson": # lowercase!! remove ð (in _layouts/bib.liquid)
+  - firstname: ["Guðmundur Stefán", "G. S.", "Guðmundur"]
     url: https://sites.google.com/view/g-stefan/
