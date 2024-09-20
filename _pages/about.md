@@ -22,5 +22,3 @@ Welcome to my webpage!
 I am a PhD candidate in econometrics at Universitat Pompeu Fabra (UPF) and Barcelona School of Economics (BSE), under the supervision of [Prof. Christian Brownlees](https://ctbrownlees.github.io/).
 
 My research interests include high-dimensional econometrics, factor models, and empirical finance.
-
-[CV](https://yapingw.github.io/assets/pdf/CV.pdf)
