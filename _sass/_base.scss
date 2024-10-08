@@ -701,9 +701,10 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-
+          color: white;  // Set normal abbr tag text color to white
+          
           a {
-            color: white;
+            color: white;  // Link text color  white
 
             &:hover {
               text-decoration: none;
