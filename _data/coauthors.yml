@@ -5,4 +5,4 @@
 
 "gumundsson": # lowercase!! remove ð (in _layouts/bib.liquid)
   - firstname: ["Guðmundur Stefán", "G. S.", "Guðmundur"]
-    url: https://sites.google.com/view/g-stefan/
+    url: https://gstefan.github.io/
