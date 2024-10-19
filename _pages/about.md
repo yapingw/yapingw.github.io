@@ -20,6 +20,7 @@ social: true # includes social icons at the bottom of the page
 
 Welcome to my webpage!
 
-I am a PhD candidate in econometrics at Universitat Pompeu Fabra (UPF) and Barcelona School of Economics (BSE), under the supervision of [Prof. Christian Brownlees](https://ctbrownlees.github.io/).
+I am a PhD candidate in economics at Universitat Pompeu Fabra (UPF) and Barcelona School of Economics (BSE), under the supervision of [Prof. Christian Brownlees](https://ctbrownlees.github.io/).
 
 My primary research field is econometric theory, focusing on high-dimensional modeling, factor models, quantile regression, and forecasting techniques, with additional interests in machine learning and empirical finance.
+
