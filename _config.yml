@@ -6,7 +6,7 @@ title: Yaping Wang # the website title (if blank, full name will be used instead
 first_name: Yaping
 middle_name: 
 last_name: Wang
-email: yaping.wang@barcelonagse.eu
+email: yaping.wang@upf.edu
 description: Yaping Wang, PhD Candidate in Economics at Universitat Pompeu Fabra (UPF)
 footer_text: 
 keywords: Econometrics, Statistics, Finance, UPF # add your own keywords or leave empty
@@ -248,7 +248,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+ # - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -288,19 +288,18 @@ jekyll-minifier:
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+# jekyll-archives:
+#   posts:
+#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+#     permalinks:
+#       year: "/blog/:year/"
+#       tags: "/blog/:type/:name/"
+#       categories: "/blog/:type/:name/"
+#   books:
+#     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -628,7 +627,7 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
-jsonresume:
+    jsonresume:
   - basics
   - work
   - education
