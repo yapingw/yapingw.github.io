@@ -24,3 +24,20 @@ I am a PhD candidate in economics at Universitat Pompeu Fabra (UPF) and Barcelon
 
 My primary research field is econometric theory, focusing on high-dimensional modeling, factor models, quantile regression, and forecasting techniques, with additional interests in machine learning and empirical finance.
 
+I am currently on the 2025-2025 Job Market.
+
+
+
+&nbsp;
+
+
+
+##### References 
+
+|                                |                         |                          |
+| ------------------------------ | ----------------------- | ------------------------ |
+| Prof. Christian Brownlees      | Prof. Gábor Lugosi      | Prof. David Rossell      |
+| LUISS, UPF, and BSE            | UPF, ICREA, and BSE     | UPF and BSE              |
+| christian.brownlees[at]upf.edu | gabor.lugosi[at]upf.edu | david.rossell[at]upf.edu |
+|                                |                         |                          |
+
