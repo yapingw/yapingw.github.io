@@ -24,7 +24,7 @@ I am a PhD candidate in economics at Universitat Pompeu Fabra (UPF) and Barcelon
 
 My primary research field is econometric theory, focusing on high-dimensional modeling, factor models, quantile regression, and forecasting techniques, with additional interests in machine learning and empirical finance.
 
-I am currently on the 2025-2025 Job Market.
+I am currently on the 2025-2026 Job Market.
 
 
 
