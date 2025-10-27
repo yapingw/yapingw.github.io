@@ -26,7 +26,7 @@ My primary research field is econometric theory, focusing on high-dimensional mo
 
 I am currently on the 2025-2026 Job Market.
 
-
+Quick link: [CV](https://yapingw.github.io/assets/pdf/cv.pdf)
 
 &nbsp;
 
