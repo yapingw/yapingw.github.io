@@ -37,7 +37,7 @@ I am currently on the 2025-2026 Job Market.
 |                                |                         |                          |
 | ------------------------------ | ----------------------- | ------------------------ |
 | Prof. Christian Brownlees      | Prof. Gábor Lugosi      | Prof. David Rossell      |
-| LUISS, UPF, and BSE            | UPF, ICREA, and BSE     | UPF and BSE              |
+| UPF, BSE and LUISS             | UPF, BSE and ICREA      | UPF and BSE              |
 | christian.brownlees[at]upf.edu | gabor.lugosi[at]upf.edu | david.rossell[at]upf.edu |
 |                                |                         |                          |
 
