@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Universitat Pompeu Fabra</p>
     <p>Barcelona, Spain</p>
-    <p>yaping.wang@upf.edu</p>
 
 news: false # includes a list of news items
 selected_papers:  false # includes a list of papers marked as "selected={true}"
@@ -25,6 +24,8 @@ I am a PhD candidate in Economics at [Universitat Pompeu Fabra (UPF)](https://ww
 My primary research field is econometric theory, focusing on high-dimensional modeling, factor models, quantile regression, and forecasting techniques, with additional interests in machine learning and empirical finance.
 
 My CV is [here](https://yapingw.github.io/assets/pdf/cv.pdf).
+
+Contact: [yaping.wang@upf.edu](mailto:yaping.wang@upf.edu)
 
 <br>
 
