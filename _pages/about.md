@@ -9,6 +9,7 @@ profile:
   image: avatar.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Room 304, IEB,<p>
     <p>University of Nottingham</p>
     <p>Ningbo China</p>
 
